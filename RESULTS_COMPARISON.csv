@@ -1,0 +1,10 @@
+﻿NAME; ; (Vertices); (Edges);KosarajuSCC;time(ms);DFS Visits;travered;Topological Sort;Time(ms);Total pushes;Total Pops;DagPath;Relaxations (SSSP Run);Relaxations (LPSP Run);Time
+small1.json;Small DAG (sparse);6;9;;243;12;0;;242;6;6;;9;9;262
+small2.json;Small cyclic (dense);8;26;;235;16;0;;261;8;8;;;;
+small3.json;Small cyclic (2 SCCs);10;36;;238;20;0;;254;10;10;;;;
+medium1.json;Medium sparse with several SCCs;12;22;;241;24;0;;252;12;12;;;;
+medium2.json;Medium dense mixed structure;15;75;;250;30;0;;283;15;15;;;;
+medium3.json;Medium DAG (dense);18;26;;244;36;0;;258;18;18;;17;17;249
+large1.json;Large sparse cyclic;25;48;;251;50;0;;252;25;25;;;;
+large2.json;Large dense multiple SCCs;35;165;;244;70;0;;258;35;35;;;;
+large3.json;Large DAG performance test;50;115;;261;100;0;;292;50;50;;31;31;275
